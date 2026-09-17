@@ -1,0 +1,23 @@
+Domain: microsoftonline-verify.com
+
+DNS A query:
+NXDOMAIN
+
+DNS MX query:
+NXDOMAIN
+
+DNS TXT query:
+NXDOMAIN
+
+WHOIS:
+No match for domain "MICROSOFTONLINE-VERIFY.COM".
+
+Observed sending IP from email headers:
+178.238.225.91
+
+Observed sending hostname:
+mail.microsoftonline-verify.com
+
+Observed infrastructure hostname:
+vps-291847.contabo.net
+

@@ -1,0 +1,9 @@
+case_id,type,value,source,notes
+001,email,noreply@microsoftonline-verify.com,From/Return-Path,Sender address
+001,domain,microsoftonline-verify.com,Email headers,Sender domain
+001,hostname,mail.microsoftonline-verify.com,Received header,Sending hostname
+001,hostname,vps-291847.contabo.net,Received header,Observed infrastructure hostname
+001,ip,178.238.225.91,Received header,Observed sending IP
+001,ip,91.234.99.42,Email body,IP displayed as alleged sign-in activity
+001,url,https://bit.ly/3vF9xKz,Email body,Shortened URL
+001,sha256,0edc14b87f50906121db6220acfba89d3f530b397826fc661ca041f2d7960bff,File hash,SHA-256 of case-001.eml
