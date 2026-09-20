@@ -115,6 +115,9 @@ The investigation included:
 
 ## Repository Structure
 
+## Repository Structure
+
+```text
 phishing-email-analysis/
 ├── evidence/
 │   ├── 001/
@@ -131,3 +134,4 @@ phishing-email-analysis/
 │   ├── case-001.eml
 │   └── case-002.eml
 └── README.md
+```
