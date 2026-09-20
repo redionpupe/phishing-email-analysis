@@ -1,0 +1,5 @@
+Email sample:
+b186a6906d8f0778923833607483995a946b639e91a0357a09cf8355f65de014  samples/case-002.eml
+
+Extracted attachment:
+74866fd09995074c825170b2509b7570585d92e045a1516cd2a9eaffd1bb410f  evidence/002/attachments/Invoice_INV-2026-0914.txt

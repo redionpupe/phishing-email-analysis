@@ -70,22 +70,64 @@ The investigation included:
 - [Email Headers](evidence/001/headers/email-headers.txt)
 - [Domain Analysis](evidence/001/extracted/domain-analysis.txt)
 
+
+### Case 002 — Invoice Attachment Phishing Simulation
+
+**Classification:** Simulated True Positive — Phishing  
+**Severity:** Medium  
+**MITRE ATT&CK:** T1566.001 — Phishing: Spearphishing Attachment
+
+#### Summary
+
+Analyzed a controlled invoice-themed phishing simulation targeting an Accounts Payable recipient.
+
+The investigation included:
+
+- MIME attachment extraction
+- SHA-256 hashing
+- File type verification
+- Metadata analysis
+- DNS and WHOIS investigation
+- Sender and Reply-To analysis
+- Social-engineering analysis
+- IOC extraction
+- MITRE ATT&CK mapping
+- SOC response recommendations
+
+#### Key Findings
+
+- The message used an overdue invoice as a financial pretext.
+- Urgency and the threat of account suspension were used to encourage immediate action.
+- The attachment was extracted without execution.
+- Static analysis identified the attachment as a 159-byte ASCII text file.
+- No executable content, scripts, macros, or malware were identified.
+- The case demonstrates safe attachment triage using a controlled benign sample.
+
+#### Investigation Files
+
+- [Investigation](investigations/002/investigation.md)
+- [SOC Report](reports/002/report.md)
+- [IOC List](iocs/iocs.csv)
+- [Email Headers](evidence/002/headers/email-headers.txt)
+- [Domain Analysis](evidence/002/extracted/domain-analysis.txt)
+- [File Hashes](evidence/002/file-hashes.txt)
+
+
 ## Repository Structure
 
-```text
 phishing-email-analysis/
 ├── evidence/
-│   └── 001/
-│       ├── extracted/
-│       ├── file-hash.txt
-│       ├── headers/
-│       └── screenshots/
+│   ├── 001/
+│   └── 002/
 ├── investigations/
-│   └── 001/
+│   ├── 001/
+│   └── 002/
 ├── iocs/
 │   └── iocs.csv
 ├── reports/
-│   └── 001/
+│   ├── 001/
+│   └── 002/
 ├── samples/
-│   └── case-001.eml
+│   ├── case-001.eml
+│   └── case-002.eml
 └── README.md

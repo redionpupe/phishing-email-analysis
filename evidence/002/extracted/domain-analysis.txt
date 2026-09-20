@@ -1,0 +1,16 @@
+Domain: secure-invoice-support.com
+
+DNS A query:
+NXDOMAIN
+
+DNS MX query:
+NXDOMAIN
+
+DNS TXT query:
+NXDOMAIN
+
+WHOIS:
+No match for domain "SECURE-INVOICE-SUPPORT.COM".
+
+Context:
+The domain is part of a controlled phishing simulation created for this portfolio case. DNS and WHOIS results were collected during analysis and should not be interpreted as evidence of real attacker infrastructure.

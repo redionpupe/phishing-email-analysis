@@ -7,3 +7,9 @@ case_id,type,value,source,notes
 001,ip,91.234.99.42,Email body,IP displayed as alleged sign-in activity
 001,url,https://bit.ly/3vF9xKz,Email body,Shortened URL
 001,sha256,0edc14b87f50906121db6220acfba89d3f530b397826fc661ca041f2d7960bff,File hash,SHA-256 of case-001.eml
+002,email,billing@secure-invoice-support.com,From header,Simulated sender address
+002,email,payments@secure-invoice-support.com,Reply-To header,Simulated reply address
+002,domain,secure-invoice-support.com,Email headers,Controlled simulation domain
+002,filename,Invoice_INV-2026-0914.txt,MIME attachment,Benign simulated invoice attachment
+002,sha256,74866fd09995074c825170b2509b7570585d92e045a1516cd2a9eaffd1bb410f,Attachment hash,SHA-256 of extracted attachment
+002,sha256,b186a6906d8f0778923833607483995a946b639e91a0357a09cf8355f65de014,Email hash,SHA-256 of case-002.eml

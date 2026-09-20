@@ -1,0 +1,7 @@
+INVOICE INV-2026-0914
+
+Account: Accounts Payable
+Amount Due: $4,850.00
+Status: OVERDUE
+
+This is a controlled training attachment for static phishing analysis.

@@ -1,0 +1,35 @@
+From: "Accounts Payable" <billing@secure-invoice-support.com>
+To: analyst@example.com
+Reply-To: payments@secure-invoice-support.com
+Date: Mon, 14 Sep 2026 09:42:18 +0000
+Subject: URGENT: Outstanding Invoice INV-2026-0914
+Message-ID: <20260914094218.0914@secure-invoice-support.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="CASE002BOUNDARY"
+
+--CASE002BOUNDARY
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Accounts Team,
+
+Our records indicate that invoice INV-2026-0914 remains unpaid.
+
+The payment is now overdue and must be processed today to avoid account suspension.
+
+Please review the attached invoice and confirm payment immediately.
+
+Regards,
+Accounts Receivable
+Secure Invoice Support
+
+--CASE002BOUNDARY
+Content-Type: text/plain; name="Invoice_INV-2026-0914.txt"
+Content-Disposition: attachment; filename="Invoice_INV-2026-0914.txt"
+Content-Transfer-Encoding: base64
+
+SU5WT0lDRSBJTlYtMjAyNi0wOTE0CgpBY2NvdW50OiBBY2NvdW50cyBQYXlhYmxlCkFtb3VudCBE
+dWU6ICQ0LDg1MC4wMApTdGF0dXM6IE9WRVJEVUUKClRoaXMgaXMgYSBjb250cm9sbGVkIHRyYWlu
+aW5nIGF0dGFjaG1lbnQgZm9yIHN0YXRpYyBwaGlzaGluZyBhbmFseXNpcy4K
+
+--CASE002BOUNDARY--

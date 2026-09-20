@@ -1,0 +1,9 @@
+From: "Accounts Payable" <billing@secure-invoice-support.com>
+To: analyst@example.com
+Reply-To: payments@secure-invoice-support.com
+Date: Mon, 14 Sep 2026 09:42:18 +0000
+Subject: URGENT: Outstanding Invoice INV-2026-0914
+Message-ID: <20260914094218.0914@secure-invoice-support.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="CASE002BOUNDARY"
+
