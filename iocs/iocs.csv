@@ -13,3 +13,8 @@ case_id,type,value,source,notes
 002,filename,Invoice_INV-2026-0914.txt,MIME attachment,Benign simulated invoice attachment
 002,sha256,74866fd09995074c825170b2509b7570585d92e045a1516cd2a9eaffd1bb410f,Attachment hash,SHA-256 of extracted attachment
 002,sha256,b186a6906d8f0778923833607483995a946b639e91a0357a09cf8355f65de014,Email hash,SHA-256 of case-002.eml
+003,email,daniel.morrison@company-executive.com,From header,Simulated executive sender
+003,email,dmorrison.executive@proton.me,Reply-To header,External reply address used in BEC simulation
+003,domain,company-executive.com,From header,Controlled simulation domain
+003,domain,proton.me,Reply-To header,Legitimate mail provider used in simulated scenario
+003,sha256,3380720c5e66d2fc20f50493d6b217fdb9c5ceb6fa598a50deae4fa19fe80083,Email hash,SHA-256 of case-003.eml

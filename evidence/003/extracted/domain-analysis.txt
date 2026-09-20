@@ -1,0 +1,29 @@
+Apparent sender domain: company-executive.com
+Reply-To domain: proton.me
+
+company-executive.com:
+
+DNS A query:
+NXDOMAIN
+
+DNS MX query:
+NXDOMAIN
+
+DNS TXT query:
+NXDOMAIN
+
+WHOIS:
+No match for domain "COMPANY-EXECUTIVE.COM".
+
+proton.me:
+
+MX records:
+10 mail.protonmail.ch.
+20 mailsec.protonmail.ch.
+
+Analysis:
+The apparent sender domain is part of a controlled BEC simulation and does not represent independently observed attacker infrastructure.
+
+The Reply-To address uses proton.me, which has valid mail infrastructure. A legitimate email provider does not establish that the mailbox user is the executive claimed in the message.
+
+The mismatch between the apparent sender identity and the Reply-To address is relevant to the simulated BEC investigation.

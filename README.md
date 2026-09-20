@@ -113,25 +113,59 @@ The investigation included:
 - [File Hashes](evidence/002/file-hashes.txt)
 
 
-## Repository Structure
+### Case 003 — Business Email Compromise / Executive Impersonation
+
+**Classification:** Simulated True Positive — Business Email Compromise  
+**Severity:** High  
+**MITRE ATT&CK:** T1566 / T1566.003 — Phishing
+
+#### Summary
+
+Analyzed a controlled Business Email Compromise (BEC) simulation involving executive impersonation and an urgent wire-transfer request targeting a finance employee.
+
+Unlike the previous cases, this message contained no malicious URL or attachment. The investigation focused on sender identity, Reply-To discrepancies, financial context, and social-engineering indicators.
+
+#### Key Findings
+
+- The sender impersonated a Chief Executive Officer.
+- A finance employee was targeted with a EUR 24,750 wire-transfer request.
+- The message used urgency and confidentiality to discourage normal verification.
+- The apparent sender and Reply-To addresses used different domains.
+- Replies would have been directed to an external mailbox.
+- The message contained no URL, attachment, or executable payload.
+- Independent verification through a trusted communication channel would be required before processing the financial request.
+
+#### Investigation Files
+
+- [Investigation](investigations/003/investigation.md)
+- [SOC Report](reports/003/report.md)
+- [IOC List](iocs/iocs.csv)
+- [Email Headers](evidence/003/headers/email-headers.txt)
+- [Domain Analysis](evidence/003/extracted/domain-analysis.txt)
+- [File Hash](evidence/003/file-hash.txt)
 
 ## Repository Structure
+
 
 ```text
 phishing-email-analysis/
 ├── evidence/
 │   ├── 001/
-│   └── 002/
+│   ├── 002/
+│   └── 003/
 ├── investigations/
 │   ├── 001/
-│   └── 002/
+│   ├── 002/
+│   └── 003/
 ├── iocs/
 │   └── iocs.csv
 ├── reports/
 │   ├── 001/
-│   └── 002/
+│   ├── 002/
+│   └── 003/
 ├── samples/
 │   ├── case-001.eml
-│   └── case-002.eml
+│   ├── case-002.eml
+│   └── case-003.eml
 └── README.md
 ```

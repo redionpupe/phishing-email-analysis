@@ -1,0 +1,10 @@
+From: "Daniel Morrison - CEO" <daniel.morrison@company-executive.com>
+To: finance@example.com
+Reply-To: dmorrison.executive@proton.me
+Date: Mon, 20 Sep 2026 10:17:42 +0000
+Subject: Confidential - Urgent Payment Request
+Message-ID: <20260920101742.83921@company-executive.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
